@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elijah's Blog</title>
+  <meta name="description" content="Elijah Bare's blog is coming soon.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site" role="banner">
+      <h1>Elijah's Blog</h1>
+      <p>Ideas, build logs, and lessons learned—coming soon.</p>
+      <nav class="top" aria-label="primary">
+        <a href="../index.html">Home</a>
+        <a href="../posts/index.html">Blog</a>
+        <a href="../about/index.html">About</a>
+      </nav>
+    </header>
+
+    <main id="content" role="main">
+      <section class="resume" aria-label="Posts coming soon">
+        <section class="resume-block">
+          <h2>Coming Soon</h2>
+          <p>Still drafting the first entries. Check back soon to read about the experiments, wins, and faceplants along the way.</p>
+          <p>In the meantime, head back home or say hey.</p>
+          <p>
+            <a class="readmore" href="../index.html">&larr; Back to Home</a>
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="site" role="contentinfo">
+      <p>© <span id="year"></span> Elijah Bare</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elijah Bare — Work & Projects</title>
+  <meta name="description" content="Industry experience and project highlights from Elijah Bare.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="site" role="banner">
+      <h1>Elijah Bare — Work & Projects</h1>
+      <p>Backend focused engineer shipping automation with Python, Rust, and ML-driven tooling.</p>
+      <nav class="top" aria-label="primary">
+        <a href="./index.html">Home</a>
+        <a href="./posts/index.html">Blog</a>
+        <a href="./about/index.html">About</a>
+      </nav>
+    </header>
+
+    <div class="grid">
+      <main id="content" role="main">
+        <section class="resume" aria-label="Professional snapshot">
+          <section class="resume-block">
+            <h2>Industry Experience</h2>
+            <article class="resume-item">
+              <h3>Ember Learning</h3>
+              <p class="role">Backend Lead</p>
+              <ul>
+                <li>Architected and deployed FastAPI services in Python with Docker, scaling classroom tools to production traffic.</li>
+                <li>Standardized Doppler-driven secret rotation and focused on shipping practical, industry-ready workflows.</li>
+              </ul>
+            </article>
+            <article class="resume-item">
+              <h3>The Coder School</h3>
+              <p class="role">Tutor</p>
+              <ul>
+                <li>Guided 30+ students through core CS concepts, emphasizing depth of understanding over rote memorization.</li>
+                <li>Fostered an inclusive environment that helped young developers stay motivated and curious.</li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="resume-block">
+            <h2>Projects (The Highlight Reel)</h2>
+            <article class="resume-item">
+              <h3>TextBot</h3>
+              <p class="role">AI-powered video editing automation</p>
+              <ul>
+                <li>Built a storytelling pipeline with OpenAI's API and MoviePy to script, edit, and post videos in minutes.</li>
+                <li>Scaled daily publishing from zero to 54k YouTube subscribers and 51M+ views since April 2024, generating passive revenue.</li>
+              </ul>
+            </article>
+            <article class="resume-item">
+              <h3>ProvenPicks.io</h3>
+              <p class="role">Data-driven sports prediction platform</p>
+              <ul>
+                <li>Designed a big-data pipeline in Python (pandas, matplotlib) to generate daily game outcome predictions.</li>
+                <li>Delivered insights via React Native and automated SMTP campaigns, blending analytics with entrepreneurship.</li>
+              </ul>
+            </article>
+            <article class="resume-item">
+              <h3>InstantDMV</h3>
+              <p class="role">Automation for DMV scheduling</p>
+              <ul>
+                <li>Launched a Rust + Actix-Web backend with a TypeScript/Next.js client to streamline appointments.</li>
+                <li>Used MongoDB and Selenium-driven scraping to keep inventory fresh, reinforcing e-commerce and ops experience.</li>
+              </ul>
+            </article>
+            <br>
+            <p>sidenote: these were some of the most successful projects... if you want to see more (and less impressive) projects - go to my github</p>
+
+          </section>
+
+          <section class="resume-block">
+            <h2>Leadership & Awards</h2>
+            <article class="resume-item">
+              <h3>Fred Fletcher Outstanding Volunteer Awards</h3>
+              <p class="role">City of Raleigh · 2023 Nominee</p>
+              <ul>
+                <li>Recognized for summer camp contributions that improved programming for local youth.</li>
+              </ul>
+            </article>
+          </section>
+
+          <section class="resume-block">
+            <h2>Education & Languages</h2>
+            <article class="resume-item">
+              <h3>Leesville Road High School</h3>
+              <p class="role">Class of 2025</p>
+            </article>
+            <article class="resume-item">
+              <h3>Spoken Languages</h3>
+              <ul>
+                <li>Conversational Spanish (7+ years of study).</li>
+                <li>Fluent, native English speaker.</li>
+              </ul>
+            </article>
+          </section>
+
+        </section>
+
+        <hr class="sep">
+
+      </main>
+
+      <aside class="sidebar" role="complementary">
+        <section>
+          <h3>Contact</h3>
+          <p>Elijah Bare<br>
+            <a rel="me" href="mailto:ebare328@gmail.com">ebare328@gmail.com</a><br>
+            <a href="https://github.com/ElijahBare">github.com/ElijahBare</a>
+          </p>
+        <p>EBS. (with the period) on discord </p>
+
+        </section>
+        <hr class="sep">
+        <section>
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Python, Java, TypeScript, Rust, CUDA.</li>
+            <li>FastAPI, Actix-Web, Next.js, React Native.</li>
+            <li>Doppler, Docker, MongoDB, Selenium, MoviePy.</li>
+          </ul>
+        </section>
+        <hr class="sep">
+        <section>
+          <h3>Community</h3>
+          <ul>
+            <li>Community mentor and tutor focused on practical, project-based learning.</li>
+            <li>Entrepreneurial experience across e-commerce and subscription products.</li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+
+    <footer class="site" role="contentinfo">
+      <p>© <span id="year"></span> Elijah Bare</p>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
